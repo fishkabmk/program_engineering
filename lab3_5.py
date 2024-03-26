@@ -7,9 +7,8 @@ while counter != 10:
         if counter in values:
             print(string + memory)
             print(string)
+        string = string + ' world'
+        memory = string
         string = ' world'
-    if counter > 7:
-        string = 'hello'
     counter += 1
-string = string + ' world'
-print(string)
+print(memory)
