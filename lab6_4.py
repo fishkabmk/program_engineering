@@ -4,7 +4,7 @@ in_3 = (1, 2, 8, 5, 1, 2, 9)  # 8
 
 
 def func(id, in_tuple):
-    indexes = [i for i in range(len(in_tuple)) if in_tuple[i] == 8]
+    indexes = [i for i in range(len(in_tuple)) if in_tuple[i] == id]
     if len(indexes) == 0:
         print(tuple())
     if len(indexes) == 1:
